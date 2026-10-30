@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --principal: #8755c7;
+    --fondo: #201832;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, var(--fondo), var(--principal));
+    color: white;
+    min-height: 100vh;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+main {
+    display: grid;
+}
+
+.caja {
+    background-color: #ffffff22;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: var(--principal);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b58be8;
+}
+
+#progreso {
+    width: 100%;
+    margin-top: 15px;
+}
+
+li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+li:hover {
+    color: #d4b5ff;
+}
+
+
+.portada {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.portada:hover {
+    transform: scale(1.05);
+}
+
+
+#lista {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#lista li {
+    padding: 10px;
+    border-bottom: 1px solid #ffffff44;
+}
